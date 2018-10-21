@@ -1,0 +1,26 @@
+{
+  "name": "calculatorTest",
+  "version": "1.0",
+  "private": true,
+  "engines": {
+    "npm": "6.1.0",
+    "node": "8.11.3"
+  },
+  "dependencies": {
+    "immutability-helper": "^2.7.1",
+    "mathjs": "^5.0.0",
+    "react-scripts": "^1.1.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
