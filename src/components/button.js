@@ -4,7 +4,7 @@ class Button extends Component {
     return (
       <div
         onClick={this.props.onClick}
-        className="button"
+        className={`buttons__item button ${this.props.addClass}`}
         data-size={this.props.size}
       >
         {this.props.label}

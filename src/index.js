@@ -4,7 +4,7 @@ import Calc from './containers/calc'
 import {createStore} from 'redux';
 import allReducers from './reducers';
 import {Provider} from 'react-redux'
-import './calc.css'
+import './assets/css/calc.css'
 
 const store = createStore(allReducers)
 
